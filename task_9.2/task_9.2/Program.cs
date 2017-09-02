@@ -74,7 +74,7 @@ namespace task_9._2
             }
 
             int[] reverseArray = new int[size];
-            ///Array.Reverse(array);
+            //Array.Reverse(array);
             for( int i = 0; i < reverseArray.Length; i++)
             {
                 reverseArray[i] = array[array.Length - i - 1];
